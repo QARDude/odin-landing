@@ -9,12 +9,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1f2937;
+  background: #2a384b;
 }
 .nav-logo {
   margin: 0 0 0 0.45rem;
   width: 200px;
   height: auto;
+  margin-bottom: 5px;
 }
 .nav-list {
   display: flex;
@@ -47,6 +48,7 @@ button {
 
 button:hover {
   background-color: #0f4eb4;
+  cursor: pointer;
 }
 
 .hero-container {
@@ -82,10 +84,108 @@ button:hover {
 
 .hero-text {
   width: 80%;
+  color: #e5e7eb;
 }
 
 .placeholder {
   background-color: #8d8d8d;
   justify-content: center;
   align-items: center;
+}
+.content-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding-bottom: 100px;
+}
+.card {
+  max-width: 150px;
+  text-align: center;
+}
+.img-holder {
+  margin-bottom: 8px;
+}
+
+.img-holder img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.quote-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 58%;
+  margin: 120px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+footer {
+  color: #1f2937;
+  font-weight: bold;
+  align-self: flex-end;
+  padding-right: 12px;
+  font-size: 20px;
+}
+.cta-text-1 {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 80%;
+  border-radius: 10px;
+  padding: 48px 0;
+  margin: 120px;
+}
+
+.cta-text-2 {
+  color: #e5e7eb;
+}
+
+.cta-button {
+  border: 2px solid #f9faf8;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 50px;
+}
+
+.footer-text {
+  text-align: center;
+  margin: 32px;
+  font-size: 12px;
+  font-weight: bold;
 }
