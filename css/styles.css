@@ -49,6 +49,8 @@ button {
 button:hover {
   background-color: #0f4eb4;
   cursor: pointer;
+  animation: tada;
+  animation-duration: 2s;
 }
 
 .hero-container {
