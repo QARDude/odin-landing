@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(247, 247, 247);
+  background: #1f2937;
 }
 .nav-logo {
   margin: 0 0 0 0.45rem;
@@ -26,12 +26,66 @@ nav {
   font-weight: bold;
   text-decoration: none;
   padding: 1em;
-  color: #590056;
+  color: #f9faf8;
   margin-right: 20px;
 }
 .nav-list li a:hover {
-  color: #fff;
-  background-color: #000;
+  background-color: #3882f6;
   border-radius: 5px;
 }
 /* End Navigation Styles */
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 32px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0f4eb4;
+}
+
+.hero-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1f2937;
+}
+.hero {
+  color: #f9faf8;
+  /* width: 80%; */
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-left,
+.placeholder {
+  flex: 1;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-left {
+  justify-content: space-between;
+}
+
+.hero-text {
+  width: 80%;
+}
+
+.placeholder {
+  background-color: #8d8d8d;
+  justify-content: center;
+  align-items: center;
+}
